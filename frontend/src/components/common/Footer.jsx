@@ -30,10 +30,10 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-3 text-sm">Connect</h4>
             <div className="flex flex-col gap-2">
-              <a href="https://youtube.com/@tradementorpro" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-red-400 text-sm transition-colors flex items-center gap-2">
+              <a href="https://youtube.com/@optionedge9" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-red-400 text-sm transition-colors flex items-center gap-2">
                 <span className="text-red-500">▶</span> YouTube Channel
               </a>
-              <a href="https://t.me/tradementorpro_free" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-blue-400 text-sm transition-colors flex items-center gap-2">
+              <a href="https://t.me/optionedgetelugu" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-blue-400 text-sm transition-colors flex items-center gap-2">
                 <span className="text-blue-500">✈</span> Free Telegram
               </a>
               <a href="https://t.me/tradementorpro_premium" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-brand-400 text-sm transition-colors flex items-center gap-2">

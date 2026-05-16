@@ -273,11 +273,11 @@ Frontend runs on: `http://localhost:5173`
 In `frontend/src/pages/YouTubeLive.jsx`:
 ```js
 const YOUTUBE_CHANNEL_ID = 'UCxxxxxx'; // Replace with real channel ID
-const YOUTUBE_HANDLE = '@tradementorpro'; // Replace with real handle
+const YOUTUBE_HANDLE = '@optionedge9'; // Replace with real handle
 ```
 
 ### Update Telegram Links
-Search for `tradementorpro_free` and `tradementorpro_premium` across components and replace with your actual Telegram channel usernames.
+Search for `optionedgetelugu` and `tradementorpro_premium` across components and replace with your actual Telegram channel usernames.
 
 ### Update Contact Email
 In `Footer.jsx` and `Contact.jsx`, update `support@tradementor.pro`.

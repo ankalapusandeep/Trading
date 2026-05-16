@@ -23,7 +23,7 @@ export default function PremiumChannel() {
           <p className="text-amber-400/70 text-xs mt-3">⚠️ Educational content only. Past examples are not indicative of future performance.</p>
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/pricing" className="btn-primary flex items-center justify-center gap-2 text-base py-3.5 px-8">💎 View Plans & Join</Link>
-            <a href="https://t.me/tradementorpro_free" target="_blank" rel="noopener noreferrer" className="btn-secondary flex items-center justify-center gap-2 text-base py-3.5 px-8">✈ Try Free Channel First</a>
+            <a href="https://t.me/optionedgetelugu" target="_blank" rel="noopener noreferrer" className="btn-secondary flex items-center justify-center gap-2 text-base py-3.5 px-8">✈ Try Free Channel First</a>
           </div>
         </div>
       </section>

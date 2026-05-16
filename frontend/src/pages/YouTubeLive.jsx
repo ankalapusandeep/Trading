@@ -3,7 +3,7 @@ import DisclaimerBanner from '../components/common/DisclaimerBanner';
 
 // Replace CHANNEL_ID with actual YouTube channel ID
 const YOUTUBE_CHANNEL_ID = 'UCxxxxxx';
-const YOUTUBE_HANDLE = '@tradementorpro';
+const YOUTUBE_HANDLE = '@optionedge9';
 const FEATURED_VIDEOS = [
   { id: 'dQw4w9WgXcQ', title: 'Nifty & Bank Nifty Analysis — Weekly Outlook' },
   { id: 'dQw4w9WgXcQ', title: 'Options Trading for Beginners — Live Session' },

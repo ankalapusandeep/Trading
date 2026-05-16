@@ -33,7 +33,7 @@ export default function About() {
                 <p className="text-amber-300/70 text-xs mt-1">All calls and analysis are strictly educational. Past educational examples are not indicative of future results. Trading involves substantial risk of loss.</p>
               </div>
               <div className="mt-8 flex gap-4">
-                <a href="https://youtube.com/@tradementorpro" target="_blank" rel="noopener noreferrer" className="btn-secondary text-sm flex items-center gap-2">▶ YouTube Channel</a>
+                <a href="https://youtube.com/@optionedge9" target="_blank" rel="noopener noreferrer" className="btn-secondary text-sm flex items-center gap-2">▶ YouTube Channel</a>
                 <Link to="/contact" className="btn-ghost text-sm">Contact Me →</Link>
               </div>
             </div>

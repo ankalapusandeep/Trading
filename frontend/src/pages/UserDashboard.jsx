@@ -52,14 +52,14 @@ export default function UserDashboard() {
 
         {/* Quick Links */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
-          <a href="https://t.me/tradementorpro_free" target="_blank" rel="noopener noreferrer" className="card hover:border-blue-500/20 flex items-center gap-3 group">
+          <a href="https://t.me/optionedgetelugu" target="_blank" rel="noopener noreferrer" className="card hover:border-blue-500/20 flex items-center gap-3 group">
             <span className="text-2xl">✈</span>
             <div>
               <p className="text-white text-sm font-medium group-hover:text-blue-400 transition-colors">Free Telegram</p>
               <p className="text-slate-500 text-xs">Join free channel</p>
             </div>
           </a>
-          <a href="https://youtube.com/@tradementorpro" target="_blank" rel="noopener noreferrer" className="card hover:border-red-500/20 flex items-center gap-3 group">
+          <a href="https://youtube.com/@optionedge9" target="_blank" rel="noopener noreferrer" className="card hover:border-red-500/20 flex items-center gap-3 group">
             <span className="text-2xl">▶</span>
             <div>
               <p className="text-white text-sm font-medium group-hover:text-red-400 transition-colors">YouTube Channel</p>

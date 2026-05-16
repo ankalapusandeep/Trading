@@ -84,7 +84,7 @@ export default function Home() {
             </div>
 
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="https://t.me/tradementorpro_free" target="_blank" rel="noopener noreferrer"
+              <a href="https://t.me/optionedgetelugu" target="_blank" rel="noopener noreferrer"
                 className="btn-secondary flex items-center justify-center gap-2 text-base py-3.5 px-7">
                 <span>✈</span> Join Free Telegram
               </a>
@@ -212,7 +212,7 @@ export default function Home() {
           <p className="text-slate-400 mt-4 text-lg">Join thousands of learners improving their market understanding and trading discipline.</p>
           <p className="text-amber-400/70 text-xs mt-3">⚠️ All content is for educational purposes only. Trading involves substantial risk.</p>
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="https://t.me/tradementorpro_free" target="_blank" rel="noopener noreferrer" className="btn-secondary flex items-center justify-center gap-2">✈ Join Free Channel</a>
+            <a href="https://t.me/optionedgetelugu" target="_blank" rel="noopener noreferrer" className="btn-secondary flex items-center justify-center gap-2">✈ Join Free Channel</a>
             <Link to="/pricing" className="btn-primary flex items-center justify-center gap-2">💎 View Premium Plans</Link>
           </div>
         </div>

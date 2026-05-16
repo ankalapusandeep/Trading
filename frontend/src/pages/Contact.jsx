@@ -36,13 +36,13 @@ export default function Contact() {
               <div className="text-3xl mb-3">✈</div>
               <h3 className="text-white font-semibold">Telegram</h3>
               <p className="text-slate-400 text-sm mt-1">Join our free channel for quick updates</p>
-              <a href="https://t.me/tradementorpro_free" target="_blank" rel="noopener noreferrer" className="text-brand-400 text-sm mt-2 inline-block hover:text-brand-300">@tradementorpro_free</a>
+              <a href="https://t.me/optionedgetelugu" target="_blank" rel="noopener noreferrer" className="text-brand-400 text-sm mt-2 inline-block hover:text-brand-300">@optionedgetelugu</a>
             </div>
             <div className="card">
               <div className="text-3xl mb-3">▶</div>
               <h3 className="text-white font-semibold">YouTube</h3>
               <p className="text-slate-400 text-sm mt-1">Subscribe for free live sessions</p>
-              <a href="https://youtube.com/@tradementorpro" target="_blank" rel="noopener noreferrer" className="text-brand-400 text-sm mt-2 inline-block hover:text-brand-300">@tradementorpro</a>
+              <a href="https://youtube.com/@optionedge9" target="_blank" rel="noopener noreferrer" className="text-brand-400 text-sm mt-2 inline-block hover:text-brand-300">@optionedge9</a>
             </div>
             <div className="card">
               <div className="text-3xl mb-3">✉</div>
