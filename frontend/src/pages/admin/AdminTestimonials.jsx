@@ -45,7 +45,7 @@ export default function AdminTestimonials() {
         <div className="flex items-center justify-between mb-6">
           <div>
             <h1 className="font-display text-2xl font-bold text-white">Testimonials</h1>
-            <p className="text-slate-400 text-sm mt-0.5">{items.length} testimonials</p>
+            <p className="text-slate-400 text-sm mt-0.5">{items?.length} testimonials</p>
           </div>
           <button onClick={openAdd} className="btn-primary text-sm">+ Add Testimonial</button>
         </div>
