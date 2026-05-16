@@ -35,14 +35,14 @@ export default function AdminMessages() {
       <main className="flex-1 bg-dark-900 p-6 overflow-auto">
         <div className="mb-6">
           <h1 className="font-display text-2xl font-bold text-white">Contact Messages</h1>
-          <p className="text-slate-400 text-sm mt-0.5">{messages.filter(m=>!m.isRead).length} unread</p>
+          <p className="text-slate-400 text-sm mt-0.5">{messages?.filter(m=>!m.isRead).length} unread</p>
         </div>
 
         {loading ? <LoadingSpinner size="lg" className="py-20" /> : (
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
             {/* List */}
             <div className="space-y-2">
-              {messages.length === 0 && <div className="text-center py-20 text-slate-500">No messages yet.</div>}
+              {messages?.length === 0 && <div className="text-center py-20 text-slate-500">No messages yet.</div>}
               {messages.map(m => (
                 <div key={m._id} onClick={() => openMsg(m)}
                   className={`card cursor-pointer hover:border-brand-500/20 transition-all ${selected?._id === m._id ? 'border-brand-500/30' : ''} ${!m.isRead ? 'border-l-2 border-l-brand-500' : ''}`}>

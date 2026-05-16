@@ -129,7 +129,7 @@ export default function Home() {
       </section>
 
       {/* Latest Market Updates */}
-      {updates.length > 0 && (
+      {updates?.length > 0 && (
         <section className="py-24 bg-dark-800">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex items-center justify-between mb-12">
@@ -159,7 +159,7 @@ export default function Home() {
       )}
 
       {/* Pricing preview */}
-      {plans.length > 0 && (
+      {plans?.length > 0 && (
         <section className="py-24 bg-dark-900">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
@@ -174,7 +174,7 @@ export default function Home() {
       )}
 
       {/* Testimonials */}
-      {testimonials.length > 0 && (
+      {testimonials?.length > 0 && (
         <section className="py-24 bg-dark-800">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">

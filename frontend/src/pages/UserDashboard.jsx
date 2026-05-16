@@ -90,7 +90,7 @@ export default function UserDashboard() {
           <h2 className="text-white font-semibold mb-4">Payment History</h2>
           {loading ? (
             <div className="py-8 text-center text-slate-500 text-sm">Loading...</div>
-          ) : payments.length === 0 ? (
+          ) : payments?.length === 0 ? (
             <div className="py-8 text-center">
               <p className="text-slate-500 text-sm">No payments yet.</p>
               <Link to="/pricing" className="btn-primary text-sm mt-4 inline-block">View Plans</Link>

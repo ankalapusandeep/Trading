@@ -46,7 +46,7 @@ export default function MarketUpdates() {
 
         {loading ? <LoadingSpinner size="lg" className="py-20" /> : (
           <>
-            {updates.length === 0 ? (
+            {updates?.length === 0 ? (
               <div className="text-center py-20 text-slate-500">No updates found.</div>
             ) : (
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -72,7 +72,7 @@ export default function MarketUpdates() {
               <div className="flex justify-center gap-2 mt-8">
                 <button onClick={() => setPage(p => Math.max(1, p-1))} disabled={page === 1} className="btn-secondary text-sm disabled:opacity-40">← Prev</button>
                 <span className="text-slate-400 text-sm py-2 px-3">Page {page}</span>
-                <button onClick={() => setPage(p => p+1)} disabled={updates.length < 9} className="btn-secondary text-sm disabled:opacity-40">Next →</button>
+                <button onClick={() => setPage(p => p+1)} disabled={updates?.length < 9} className="btn-secondary text-sm disabled:opacity-40">Next →</button>
               </div>
             )}
           </>

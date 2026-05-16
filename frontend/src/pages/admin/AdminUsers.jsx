@@ -48,7 +48,7 @@ export default function AdminUsers() {
         <div className="flex items-center justify-between mb-6">
           <div>
             <h1 className="font-display text-2xl font-bold text-white">Users</h1>
-            <p className="text-slate-400 text-sm mt-0.5">{users.length} total users</p>
+            <p className="text-slate-400 text-sm mt-0.5">{users?.length} total users</p>
           </div>
           <input value={search} onChange={e => setSearch(e.target.value)} placeholder="Search users..." className="input-field w-64 text-sm" />
         </div>
@@ -99,7 +99,7 @@ export default function AdminUsers() {
                   ))}
                 </tbody>
               </table>
-              {filtered.length === 0 && <div className="text-center py-10 text-slate-500 text-sm">No users found.</div>}
+              {filtered?.length === 0 && <div className="text-center py-10 text-slate-500 text-sm">No users found.</div>}
             </div>
           </div>
         )}

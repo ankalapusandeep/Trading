@@ -27,7 +27,7 @@ export default function AdminSidebar() {
       </div>
 
       <nav className="flex-1 py-4 px-2 space-y-1">
-        {navItems.map(item => (
+        {navItems?.map(item => (
           <NavLink key={item.to} to={item.to} end={item.end}
             className={({ isActive }) =>
               `flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-all duration-150 ${isActive ? 'bg-brand-500/15 text-brand-400' : 'text-slate-400 hover:text-white hover:bg-white/5'}`

@@ -93,7 +93,7 @@ export default function AdminDashboard() {
             </div>
 
             {/* Recent Payments */}
-            {payments.length > 0 && (
+            {payments?.length > 0 && (
               <div className="card mt-6">
                 <h3 className="text-white font-semibold mb-4">Recent Payments</h3>
                 <div className="overflow-x-auto">

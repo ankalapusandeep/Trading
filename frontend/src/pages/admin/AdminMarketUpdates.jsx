@@ -47,7 +47,7 @@ export default function AdminMarketUpdates() {
         <div className="flex items-center justify-between mb-6">
           <div>
             <h1 className="font-display text-2xl font-bold text-white">Market Updates</h1>
-            <p className="text-slate-400 text-sm mt-0.5">{updates.length} updates</p>
+            <p className="text-slate-400 text-sm mt-0.5">{updates?.length} updates</p>
           </div>
           <button onClick={openAdd} className="btn-primary text-sm">+ New Update</button>
         </div>
@@ -70,7 +70,7 @@ export default function AdminMarketUpdates() {
                 </div>
               </div>
             ))}
-            {updates.length === 0 && <div className="text-center py-20 text-slate-500">No updates yet. Create one!</div>}
+            {updates?.length === 0 && <div className="text-center py-20 text-slate-500">No updates yet. Create one!</div>}
           </div>
         )}
 

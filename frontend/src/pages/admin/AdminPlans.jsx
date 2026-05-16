@@ -46,7 +46,7 @@ export default function AdminPlans() {
         <div className="flex items-center justify-between mb-6">
           <div>
             <h1 className="font-display text-2xl font-bold text-white">Pricing Plans</h1>
-            <p className="text-slate-400 text-sm mt-0.5">{plans.length} plans</p>
+            <p className="text-slate-400 text-sm mt-0.5">{plans?.length} plans</p>
           </div>
           <button onClick={openAdd} className="btn-primary text-sm">+ New Plan</button>
         </div>
@@ -74,7 +74,7 @@ export default function AdminPlans() {
                 </div>
               </div>
             ))}
-            {plans.length === 0 && <div className="col-span-3 text-center py-20 text-slate-500">No plans yet.</div>}
+            {plans?.length === 0 && <div className="col-span-3 text-center py-20 text-slate-500">No plans yet.</div>}
           </div>
         )}
 

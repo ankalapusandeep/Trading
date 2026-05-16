@@ -12,7 +12,7 @@ export default function Register() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (form.password !== form.confirm) { toast.error('Passwords do not match.'); return; }
-    if (form.password.length < 6) { toast.error('Password must be at least 6 characters.'); return; }
+    if (form.password?.length < 6) { toast.error('Password must be at least 6 characters.'); return; }
     setLoading(true);
     try {
       const user = await register(form.name, form.email, form.password, form.phone);
